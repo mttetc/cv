@@ -1,0 +1,12 @@
+body {
+	background-color: color('grey', 'lighten-5');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.cv-container {
+	flex-basis: 960px;
+	@extend .card;
+}
