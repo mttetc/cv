@@ -3340,7 +3340,6 @@ small {
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px; }
   .card .card-title, .cv-container .card-title {
-    font-size: 24px;
     font-weight: 300;
     padding: 24px 24px 0 24px; }
     .card .card-title.activator, .cv-container .card-title.activator {
@@ -4545,9 +4544,9 @@ main .title-container span {
   .timeline .date,
   .timeline .job {
     padding: 2px 10px;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    display: inline-block; }
   .timeline .date {
-    padding: 2px 10px;
     background: #7e57c2;
     color: #FFFFFF;
     left: 0;

@@ -115,9 +115,9 @@ $check: 22px;
 	.job {
 		padding: 2px 10px;
 		font-size: 1.2rem;
+		display: inline-block;
 	}
 	.date {
-		padding: 2px 10px;
 		background: $primary-color;
 		color: color('shades', 'white');
 		left: 0;
