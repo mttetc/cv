@@ -12,7 +12,6 @@
 
 // components
 @import "components/global";
-@import "components/badges";
 @import "components/icons-material-design";
 @import "components/grid";
 @import "components/typography";
@@ -21,14 +20,20 @@
 @import "components/tooltip";
 @import "components/buttons";
 @import "components/waves";
-@import "components/collapsible";
 @import "components/chips";
-@import "components/materialbox";
-@import "components/forms/forms";
-@import "components/table_of_contents";
 @import "components/preloader";
 @import "components/tapTarget";
 @import "components/pulse";
 
 // custom
 @import "custom/global";
+
+@import "custom/header/main";
+
+@media #{$medium-and-down} {
+	@import "custom/global_mobile";
+}
+
+@media #{$large-and-up} {
+	@import "custom/global_desktop";
+}

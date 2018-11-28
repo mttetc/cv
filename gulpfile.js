@@ -15,7 +15,7 @@ gulp.task('fonts', function (text) {
 });
 
 gulp.task('images', function () {
-    gulp.src('src/images/**/*')
+    gulp.src('src/img/**/*')
         .pipe(cache(imagemin({optimizationLevel: 3, progressive: true, interlaced: true})))
         .pipe(gulp.dest('dist/img/'));
 });
