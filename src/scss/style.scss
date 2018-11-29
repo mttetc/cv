@@ -29,6 +29,7 @@
 @import "custom/global";
 
 @import "custom/header/main";
+@import "custom/body/main";
 
 @media #{$medium-and-down} {
 	@import "custom/global_mobile";
@@ -36,4 +37,5 @@
 
 @media #{$large-and-up} {
 	@import "custom/global_desktop";
+	@import "custom/body/desktop";
 }

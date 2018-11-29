@@ -1,5 +1,4 @@
 header {
-	background-color: $primary-color;
-	display: block;
 	height: 25vh;
+	background: linear-gradient(45deg, $primary-color 0%, color('indigo', 'base') 100%)
 }
