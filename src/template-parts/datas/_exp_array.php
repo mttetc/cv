@@ -1,8 +1,19 @@
 <?php
 
 $datas = array(
+	'Havas Digital Factory' => array(
+		'date' => 'Juil 2019 - aujourd\'hui',
+		'site'	  => 'https://www.havasdigitalfactory.com/',
+		'job'     => 'Développeur Front-end',
+		'missions' => array(
+			'Création de sites web',
+			'Stabilisation de sites web',
+			'Veille technologique',
+			'Création d\'emails en html'
+		),
+    ),
 	'Artwaï' => array(
-		'date' => 'févr 2017 - aujourd\'hui',
+		'date' => 'févr 2017 - Juil 2019',
 		'site'	  => 'https://www.artwai.com/',
 		'job'     => 'Intégrateur - Développeur Front-end - UX/UI Designer',
 		'missions' => array(

@@ -22,7 +22,7 @@
                 <!-- Titre principal-->
                 <div class="title-container">
                     <h1 class="center">Matthias Etchegaray</h1>
-                    <span class="center">Intégrateur - Développeur front-end</span>
+                    <span class="center">Développeur front-end</span>
                 </div>
 
                 <div class="row">

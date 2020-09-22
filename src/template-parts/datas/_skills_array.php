@@ -2,18 +2,18 @@
 
 $datas = array(
 	0 => array(
-		'HTML',
-        'Twig',
-        'CSS',
+        'Javascript',
+        'React',
         'SASS',
+        'CSS',
+		'HTML',
+        'jQuery',
+        'Twig',
         'UX/UI',
         'Emails en HTML',
         'PHP',
-        'Bootstrap',
-        'Javascript',
-        'jQuery',
         'Gulp.js',
-        'XAMPP',
+        'XAMPP/MAMP',
         'Git',
         'VSCode',
     ),
@@ -25,7 +25,6 @@ $datas = array(
 	2 => array(
 		'Photoshop',
         'Illustrator',
-        'InDesign',
     ),
     3 => array(
 		'Méthode agile',
