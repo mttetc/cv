@@ -33,16 +33,16 @@ $datas = array(
 			'Veille technologique',
 			'Création d\'emails en html'
 		),
-    ),
-	'Ouest-France Multimédia' => array(
-		'date' => 'avr 2014 - juil 2014',
-		'site'	  => 'https://rennes.maville.com/',
-		'job'     => 'Intégrateur stagiaire',
-		'missions' => array(
-			'Création de divers supports graphiques',
-			'Création de logos',
-			'Création d\'emails en html.',
-			'Reprise de la structure html et du style de diverses pages'
-		),
-    ),
+    )
+	// 'Ouest-France Multimédia' => array(
+	// 	'date' => 'avr 2014 - juil 2014',
+	// 	'site'	  => 'https://rennes.maville.com/',
+	// 	'job'     => 'Intégrateur stagiaire',
+	// 	'missions' => array(
+	// 		'Création de divers supports graphiques',
+	// 		'Création de logos',
+	// 		'Création d\'emails en html.',
+	// 		'Reprise de la structure html et du style de diverses pages'
+	// 	),
+    // ),
 );
