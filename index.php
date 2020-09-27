@@ -23,6 +23,7 @@
                 <div class="title-container">
                     <h1 class="center">Matthias Etchegaray</h1>
                     <span class="center">Développeur front-end</span>
+                    <span class="center" style="margin-top: 10px">06 59 52 53 64</span>
                 </div>
 
                 <div class="row">

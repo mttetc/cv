@@ -18,10 +18,7 @@ $datas = array(
 		'job'     => 'Intégrateur - Développeur Front-end - UX/UI Designer',
 		'missions' => array(
 			'Gestion de l\'UI pour des applications web internes à Ouest-France.',
-			'Intégration pour le site Ouest-France et ses sous-domaines.',
-			'Intégration pour le site Pages jaunes.',
-			'Intégration et développement pour des sites Wordpress',
-			'Utilisation de plugins CMS',
+			'Intégration pour le site Pages jaunes, Ouest-France et ses sous-domaines.',
 			'Veille technologique',
 			'Création d\'emails en html'
 		),
@@ -33,9 +30,6 @@ $datas = array(
 		'missions' => array(
 			'Création du projet.',
 			'Création de maquettes graphiques.',
-			'Création des pages et fragments en suivant les contraintes multi-browser & multi-supports.',
-			'Rendre le site "SEO-friendly"',
-			'Utilisation de plugins CMS',
 			'Veille technologique',
 			'Création d\'emails en html'
 		),
