@@ -25,6 +25,7 @@ $datas = array(
 			'Conception selon approche MVC via API RESTful avec un back office Wordpress',
 			'conception basée sur stack html/php avec un back office Wordpress',
 			'conception de landing pages statiques',
+			'conception d\'emails',
 			'stabilisation basée sur un système de tableau Kanban via JIRA et Mantis',
 			'intégration classique en sass compilé via webpack'
 		),
@@ -78,6 +79,7 @@ $datas = array(
 		'missions' => array(
 			'Conception de blocs et d\'éléments sur une base de php pour les sites du groupe Publihebdos',
 			'Conception de la partie front de la fusion de ces sites en actu.fr',
+			'conception d\'emails',
 			'création de charte graphique',
 			'réflexion UI/UX'
 		),
