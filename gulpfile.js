@@ -8,6 +8,7 @@ var imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache');
 var cleancss = require('gulp-clean-css');
 var sass = require('gulp-sass');
+var php2html = require("gulp-php2html");
 
 gulp.task('fonts', function (text) {
     gulp.src('src/fonts/**/*')
@@ -55,6 +56,12 @@ gulp.task('watch', function () {
     gulp.watch("src/scss/**/*.scss", ['styles']);
     gulp.watch("src/js/**/*.js", ['scripts']);
     gulp.watch("src/fonts/**/*", ['fonts']);
+});
+
+gulp.task('html', function() {
+    gulp.src("./src/index.php")
+        .pipe(php2html())
+        .pipe(gulp.dest("./dist"));
 });
 
 gulp.task('clean', require('del').bind(null, ['dist']));
