@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <title>Curriculum vitae de Matthias Etchegaray</title>
 
-        <link rel="stylesheet" type="text/css" href="dist/styles/style.min.css">
+        <link rel="stylesheet" type="text/css" href="site/styles/style.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
@@ -15,7 +15,7 @@
 
         <div class="cv-container">
             <div class="avatar">
-                <img src="dist/img/avatar.jpg" alt="Avatar" />
+                <img src="site/img/avatar.jpg" alt="Avatar" />
             </div>
 
             <main>

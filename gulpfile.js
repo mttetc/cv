@@ -12,12 +12,12 @@ var php2html = require("gulp-php2html");
 
 gulp.task('fonts', function (text) {
     gulp.src('src/fonts/**/*')
-        .pipe(gulp.dest('dist/fonts'));
+        .pipe(gulp.dest('site/fonts'));
 });
 
 gulp.task('images', function () {
     gulp.src('src/img/**/*')
-        .pipe(gulp.dest('dist/img/'));
+        .pipe(gulp.dest('site/img/'));
 });
 
 gulp.task('styles', function () {
@@ -30,10 +30,10 @@ gulp.task('styles', function () {
         }))
         .pipe(sass())
         .pipe(autoprefixer('last 2 versions'))
-        .pipe(gulp.dest('dist/styles/'))
+        .pipe(gulp.dest('site/styles/'))
         .pipe(rename({suffix: '.min'}))
         .pipe(cleancss())
-        .pipe(gulp.dest('dist/styles/'))
+        .pipe(gulp.dest('site/styles/'))
 });
 
 gulp.task('watch', function () {
@@ -48,7 +48,7 @@ gulp.task('html', function() {
         .pipe(gulp.dest("./site"));
 });
 
-gulp.task('clean', require('del').bind(null, ['dist']));
+gulp.task('clean', require('del').bind(null, ['site']));
 
 gulp.task('default', ['clean'], function () {
     gulp.start('styles');
