@@ -24,31 +24,39 @@
                     <h1 class="center">Matthias Etchegaray</h1>
                     <span class="center">Développeur front-end</span>
                     <span class="center" style="margin-top: 10px">06 59 52 53 64</span>
+                    <span class="center" style="margin-top: 10px"><a href="mailto:etchegaray.matthias@gmail.com?subject=Contact depuis votre CV&body=Bonjour" title="etchegaray.matthias@gmail.com">etchegaray.matthias@gmail.com</a></span>
+                    <span class="center" style="margin-top: 10px">Clients principaux : SIPA Ouest-France, Solocal</span>
                 </div>
 
-                <div class="row">
-                    <!-- Compétences -->
-                    <section class="col s12 m6">
-                        <h3 class="section-title">
-                            <span class="material-icons">settings</span>
-                            <span>Compétences</span>
-                        </h3>
-                        <div class="inner-container">
-                            <?php include('src/template-parts/_skills.php'); ?>
-                        </div>
-                    </section>
 
-                    <!-- Langues -->
-                    <section class="col s12 m6">
-                        <h3 class="section-title">
-                            <span class="material-icons">people</span>
-                            <span>Langues</span>
-                        </h3>
-                        <div class="inner-container">
-                            <?php include('src/template-parts/_languages.php'); ?>
-                        </div>
-                    </section>
-                </div>
+                <!-- Compétences -->
+                <section>
+                    <h3 class="section-title">
+                        <span class="material-icons">settings</span>
+                        <span>Compétences</span>
+                    </h3>
+                    <div class="inner-container">
+                        <?php include('src/template-parts/_skills.php'); ?>
+                    </div>
+                </section>
+
+                <!-- Diplômes -->
+                <section>
+                    <h3 class="section-title">
+                        <span class="material-icons">turned_in</span>
+                        <span>Diplômes</span>
+                    </h3>
+                    <div class="inner-container">
+                        <?php include('src/template-parts/_studies.php'); ?>
+                    </div>
+                </section>
+
+                <!-- Anglais -->
+                <section>
+                    <div class="inner-container">
+                        <?php include('src/template-parts/_languages.php'); ?>
+                     </div>
+                </section>
 
                 <!-- Expériences -->
                 <section>

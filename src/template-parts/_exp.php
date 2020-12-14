@@ -9,17 +9,36 @@ include __DIR__ . '/datas/_exp_array.php';
             <div class="timeline-point">
                 <span class="material-icons">check</span>
             </div>
+            
             <div class="timeline-content">
                 <div class="card">
                     <div class="card-title">
                         <span class="date"><?php echo $value['date']; ?></span>
                         <a class="name" href="<?php echo $value['site']; ?>" target="_blank"><?php echo $key ?></a>
-                        <span class="job"><?php echo $value['job']; ?></span>
+                        <span class="chip"><?php echo $value['job']; ?></span>
                     </div>
                     <ul class="card-content">
-                        <?php foreach ($value['missions'] as $missions => $mission) { ?>  
-                            <li><?php echo $mission ?></li>
-                        <?php } ?>
+                        <li>
+                            <strong>Stack</strong> :<br/>
+                            <?php 
+                            $countStack = count($value['stack']);
+                            $i = 0;
+                            foreach ($value['stack'] as $name => $stack) { 
+                                $i++ ;
+                                echo $stack . ($i < $countStack ? ', ' : '');
+                            } ?>
+                        </li>
+                        <li>
+                            <strong>Type de missions</strong> :<br/>
+                            <?php 
+                            $countMissions = count($value['missions']);
+                            $j = 0;
+                            foreach ($value['missions'] as $name => $mission) { 
+                                $j++;
+                           
+                                echo $mission . ($j < $countMissions ? ', ' : '');
+                            } ?>
+                        </li>
                     </ul>
                 </div>
             </div>

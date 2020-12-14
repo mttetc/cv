@@ -2,35 +2,26 @@
 
 $datas = array(
 	0 => array(
-        'Javascript',
         'React',
+        'React-redux',
+        'React-hooks',
+        'React native',
+        'Javascript ES5/ES6/ES7',
+        'Npm',
+        'Webpack',
+        'Axios',
+        'Swiper',
+        'Slick',
+        'Barba',
+        'Anime',
+        'GSAP',
         'SASS',
+        'Less',
         'CSS',
-		'HTML',
-        'jQuery',
+        'HTML',
         'Twig',
-        'UX/UI',
-        'Emails en HTML',
         'PHP',
-        'Gulp.js',
-        'XAMPP/MAMP',
-        'Git',
-        'VSCode',
-    ),
-	1 => array(
-		'Wordpress',
-        'Prestashop',
-        'Joomla!',
-    ),
-	2 => array(
-		'Photoshop',
-        'Illustrator',
-    ),
-    3 => array(
-		'Méthode agile',
-        'JIRA',
-        'Redmine',
-        'Kanban',
-        'Gantt',
+        'Gulp',
+        'Git'
     )
 );

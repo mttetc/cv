@@ -22,7 +22,7 @@
 		top: 11px;
 		left: unset;
         right: -207px;
-        width: 140px;
+        width: 150px;
         text-align: center;
 	}
 	.timeline-block {
@@ -52,7 +52,7 @@
             }
 		}
 		.timeline-point {
-			margin: 0 0 0 -13px;
+			margin: 0 0 0 -12px;
 			left: 50%;
 		}
 		.timeline-content {
@@ -62,4 +62,10 @@
 			padding: 0;
 		}
 	}
+}
+
+.chips {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

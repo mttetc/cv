@@ -1,5 +1,4 @@
 body {
-	height: 100vh;
 	background-color: color('grey', 'lighten-5');
 	position: relative;
 	z-index: 2;
@@ -36,6 +35,7 @@ main {
 	span {
 		&:last-child {
 			height: 38px;
+			line-height: 1.35;
 		}
 	}
 }

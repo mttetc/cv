@@ -1,9 +1,11 @@
 <?php
 
 $datas = array(
-	1 => 'Mode',
-	2 => 'Voyage',
-	3 => 'Musique',
-	4 => 'Jeux-vidéos',
-	5 => 'Cinéma'
+	'Veille technologique',
+	'Veille en cours : Jest',
+	'Veille future : propTypes, Next.js',
+	'Aide sur Stack Overflow',
+	'Musique',
+	'Cinéma',
+	'Jeux-vidéos'
 );

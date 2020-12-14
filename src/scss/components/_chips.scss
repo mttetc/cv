@@ -1,7 +1,7 @@
 .chip {
   display: inline-block;
   height: 32px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   color: rgba(0,0,0,.6);
   line-height: 32px;
@@ -19,7 +19,7 @@
     border-radius: 50%;
   }
 
-  &:first-child {
+  &.violet {
     background-color: $primary-color;
     color: color('shades', 'white');
   }
