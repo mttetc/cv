@@ -4648,10 +4648,10 @@ main > section + section {
     .timeline .date {
       margin: 0;
       position: absolute;
-      top: 11px;
+      top: 10px;
       left: unset;
-      right: -207px;
-      width: 150px;
+      right: -227px;
+      width: 170px;
       text-align: center; }
     .timeline .timeline-block {
       margin: 30px 0;
@@ -4664,7 +4664,7 @@ main > section + section {
         float: right; }
         .timeline .timeline-block:nth-child(even) .timeline-content .date {
           right: unset;
-          left: -208px;
+          left: -228px;
           top: 6px; }
       .timeline .timeline-block:nth-child(even)::after {
         clear: both;

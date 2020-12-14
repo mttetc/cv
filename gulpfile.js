@@ -17,7 +17,6 @@ gulp.task('fonts', function (text) {
 
 gulp.task('images', function () {
     gulp.src('src/img/**/*')
-        .pipe(cache(imagemin({optimizationLevel: 3, progressive: true, interlaced: true})))
         .pipe(gulp.dest('dist/img/'));
 });
 
@@ -37,21 +36,6 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('dist/styles/'))
 });
 
-gulp.task('scripts', function () {
-    return gulp.src('src/js/global.js')
-        .pipe(plumber({
-            errorHandler: function (error) {
-                console.log(error.message);
-                this.emit('end');
-            }
-        }))
-        .pipe(concat('main.js'))
-        .pipe(gulp.dest('dist/scripts/'))
-        .pipe(rename({suffix: '.min'}))
-        // .pipe(uglify())
-        .pipe(gulp.dest('dist/scripts/'))
-});
-
 gulp.task('watch', function () {
     gulp.watch("src/scss/**/*.scss", ['styles']);
     gulp.watch("src/js/**/*.js", ['scripts']);
@@ -61,14 +45,14 @@ gulp.task('watch', function () {
 gulp.task('html', function() {
     gulp.src("./src/index.php")
         .pipe(php2html())
-        .pipe(gulp.dest("./dist"));
+        .pipe(gulp.dest("./site"));
 });
 
 gulp.task('clean', require('del').bind(null, ['dist']));
 
 gulp.task('default', ['clean'], function () {
     gulp.start('styles');
-    gulp.start('scripts');
     gulp.start('fonts');
     gulp.start('images');
+    gulp.start('html');
 });
